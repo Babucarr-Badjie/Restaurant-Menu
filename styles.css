@@ -1,0 +1,16 @@
+body {
+  background-image: url(./image/coffee-beans-background-image.jpg);
+  background-position: center;
+}
+
+.menu-container {
+  width: 80%;
+  background-color: burlywood;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+p {
+  text-align: center;
+}
