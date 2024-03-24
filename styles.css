@@ -2,6 +2,9 @@
 :root {
   --color1: #deb887;
   --color2: #a52a2a;
+  --color3: #808080;
+  --color5: #ffffff;
+  --color6: #000000;
 }
 
 body {
@@ -20,6 +23,8 @@ body {
 }
 h1 {
   font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
 }
 h2 {
   font-size: 30px;
@@ -35,7 +40,6 @@ h1,
 h2,
 p {
   text-align: center;
-  margin: 10px 0;
 }
 .flavor,
 .dessert {
@@ -48,9 +52,36 @@ p {
 }
 .product p {
   display: inline-block;
+  margin: 10px 0;
+  font-size: 18px;
 }
 hr {
   height: 2px;
   background-color: var(--color2);
   border-color: var(--color2);
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+footer {
+  font-size: 14px;
+}
+a {
+  color: var(--color6);
+}
+
+a:visited {
+  color: var(--color6);
+}
+a:active {
+  color: var(--color5);
+}
+.address {
+  margin-bottom: 5px;
+}
+img {
+  display: block;
+  margin: -25px auto 0 auto;
 }
